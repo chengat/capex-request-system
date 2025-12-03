@@ -1,7 +1,7 @@
 # Corporate CapEx Request System (Power Platform)
 
 A dual-interface Dataverse solution designed to replace legacy SharePoint workflows for capital expenditure approvals.
-
+### Demo: https://youtu.be/bFEvKRbtdM0
 ## Architecture
 - **Backend:** Microsoft Dataverse (Relational Tables: `CostCenter` 1:N `CapexRequest`).
 - **Logic:** Server-side Business Rules for compliance flagging (Amount > $10k triggers VP Audit).
